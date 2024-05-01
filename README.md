@@ -11,6 +11,7 @@ Creacion de una pagina web que permita registrar usuarias y agendar horas terape
 ## Aplicaciones
 
 Comunidad
+config
 core
 
 ### Modelos

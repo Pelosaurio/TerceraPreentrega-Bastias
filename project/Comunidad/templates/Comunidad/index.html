@@ -1,13 +1,13 @@
 {% extends 'core/base.html' %}
 
-{% block title %}
-    Comunidad
-{% endblock title %}
+{% block titulo %}
+    Comunidad: Mi Mejor Versión
+{% endblock titulo %}
 
-{% block content %}
+{% block contenido %}
     {% for comunidad in comunidades %}
 
         <p>{{ comunidad.nombre }} | 🌸{{comunidad.psicologa}}🌸</p> 
 
     {% endfor %}
-{% endblock content %}
+{% endblock contenido %}
