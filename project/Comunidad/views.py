@@ -3,6 +3,6 @@ from django.shortcuts import render
 from . import models
 
 def home(request):
-    consulta_comunidad = models.Comunidad.objects.all()
-    context = {"comunidades": consulta_comunidad}
+    query = models.Comunidad.objects.all()
+    context = {"comunidades": query}
     return render(request, "Comunidad/index.html", context)
