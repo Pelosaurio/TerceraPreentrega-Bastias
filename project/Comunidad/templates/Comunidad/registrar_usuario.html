@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %}
+
+{% block titulo %}
+    Registrar nuevo usuario:
+{% endblock titulo %}
+
+{% block contenido %}
+    <form action="" method="post">
+        {% csrf_token %}
+        <table>
+            <p>Nombre: <input type="text" name="nombre" id=""></p>
+            <p>Fecha de nacimiento: <input type="date" name="nacimiento" id=""></p>
+            <p>Telefono: <input type="number" name="telefono" id=""></p>
+            <p>Correo: <input type="email" name="correo" id=""></p>
+            <p>Usuario: <input type="text" name="usuario" id=""></p>
+            <p>Contraseña: <input type="password" name="contraseña" id=""></p>
+        </table>
+        <button type="submit">Registrarse</button>
+    </form>
+{% endblock contenido %}
