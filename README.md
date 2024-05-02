@@ -25,6 +25,7 @@ Comunidad
 
 Posibilidades de agendar en un calendario horas terapeuticas disponibles
 Consulta de horarios disponibles
+Hipervínculo y desarrollo de seccion About
 Plataforma de descarga de material gratuito
 Plataforma para acceder a material exclusivo
 

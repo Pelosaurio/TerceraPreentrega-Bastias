@@ -1,13 +1,21 @@
 {% extends 'core/base.html' %}
 
 {% block titulo %}
-    Comunidad: Mi Mejor Versión
+    🌸 Comunidad: Mi Mejor Versión 🌸
 {% endblock titulo %}
 
 {% block contenido %}
-    {% for comunidad in comunidades %}
-
-        <p>{{ comunidad.nombre }} | 🌸{{comunidad.psicologa}}🌸</p> 
-
+<div class="row row-cols-1 row-cols-md-2">
+    {% for usuario in usuarios %}
+    <div class="col mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">{{ usuario.nombre }}</h2>
+                <h3 class="card-subtitle mb-2 text-muted">{{ usuario.usuario }}</h3>
+                <p class="card-text text-muted">Fecha de nacimiento: {{ usuario.fecha_nacimiento }}</p>
+            </div>
+        </div>
+    </div>
     {% endfor %}
+</div>
 {% endblock contenido %}
