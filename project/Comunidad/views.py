@@ -15,4 +15,4 @@ def registrar_usuario(request):
             return redirect("Comunidad:home")
     else: 
         form = forms.RegistrarUsuarioForm()
-        return render(request, "Comunidad/registrar_usuario.html", context={"form": form})
+    return render(request, "Comunidad/registrar_usuario.html", context={"form": form})
