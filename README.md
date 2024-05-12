@@ -31,4 +31,4 @@ Plataforma para acceder a material exclusivo
 
 ## Problemas conocidos
 
-Dificultades para programar un calendario interactivo
+problemas con el formulario en el archivo urls.py, no pude resolverlos de ninguna forma y afecto directamente al formulario de registro de usuarios que funcionaba bien hasta antes de establecer su ruta
