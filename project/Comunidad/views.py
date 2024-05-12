@@ -1,5 +1,4 @@
 from django.shortcuts import redirect, render
-
 from . import forms, models
 
 def home(request):
